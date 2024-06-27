@@ -56,5 +56,15 @@ public class QuanLyNhanVien {
         this.diaChi = diaChi;
     }
     
+    public Object[] row() {
+        return new Object[] {
+            MaKH,hocPhi,ThoiLuong,maNV
+        };
+    }
+        
+
+
+
+    
     
 }
